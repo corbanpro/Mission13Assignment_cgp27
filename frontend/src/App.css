@@ -40,3 +40,7 @@
 .inline {
   display: inline;
 }
+
+table {
+  table-layout: fixed;
+}

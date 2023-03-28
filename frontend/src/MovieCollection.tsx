@@ -4,32 +4,34 @@ function MovieCollection() {
   const movieList = data.MovieData;
   return (
     <div>
+      <br />
       <h1>Movie Collection Page</h1>
-
-      <table className="table m-3">
-        <thead>
-          <tr>
-            <th>Category</th>
-            <th>Title</th>
-            <th>Year</th>
-            <th>Director</th>
-            <th>Rating</th>
-            <th>Edited</th>
-          </tr>
-        </thead>
-        <tbody>
-          {movieList.map((m) => (
+      <div className="p-4">
+        <table className="table">
+          <thead>
             <tr>
-              <td>{m.Category}</td>
-              <td>{m.Title}</td>
-              <td>{Math.floor(m.Year)}</td>
-              <td>{m.Director}</td>
-              <td>{m.Rating}</td>
-              <td>{m.Edited}</td>
+              <th>Category</th>
+              <th>Title</th>
+              <th>Year</th>
+              <th>Director</th>
+              <th>Rating</th>
+              <th>Edited</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {movieList.map((m) => (
+              <tr>
+                <td>{m.Category}</td>
+                <td>{m.Title}</td>
+                <td>{Math.floor(m.Year)}</td>
+                <td>{m.Director}</td>
+                <td>{m.Rating}</td>
+                <td>{m.Edited}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

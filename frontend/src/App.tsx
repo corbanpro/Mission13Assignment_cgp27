@@ -10,7 +10,7 @@ function Nav() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <NavLink className="navbar-brand m-1" to="#">
+        <NavLink className="navbar-brand m-2" to="#">
           Joel Hilton's Website
         </NavLink>
 

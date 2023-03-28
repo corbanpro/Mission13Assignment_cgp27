@@ -3,8 +3,9 @@ function Home() {
     <>
       <div>
         <br />
-        <h4 className="inline">Introducing...&nbsp;</h4>
-        <h1 className="inline">Joel Hilton!!!</h1>
+        <h1 className="inline">
+          Introducing... <i>Joel Hilton!!!</i>
+        </h1>
         <br />
         <br />
         <div className="row">
