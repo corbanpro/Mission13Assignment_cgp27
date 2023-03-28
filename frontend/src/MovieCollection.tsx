@@ -22,7 +22,7 @@ function MovieCollection() {
             <tr>
               <td>{m.Category}</td>
               <td>{m.Title}</td>
-              <td>{Math.round(m.Year)}</td>
+              <td>{Math.floor(m.Year)}</td>
               <td>{m.Director}</td>
               <td>{m.Rating}</td>
               <td>{m.Edited}</td>
